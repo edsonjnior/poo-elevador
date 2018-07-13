@@ -48,8 +48,10 @@ public class ElevadorTester {
                     case 2:
                         System.out.println("\nTemos " + Elevador.QUANTIDADE_ELEVADORES() + " elevador(es).");
                         System.out.print("Qual elevador deseja escolher? ");
-
                         int eEscolha = reader.nextInt();
+                        
+                        
+                        
                         if(eEscolha > 0 && eEscolha <= Elevador.QUANTIDADE_ELEVADORES()){
                         	selecionarElevador(eEscolha);
                         }else{
